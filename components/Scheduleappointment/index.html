@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Shipping & Billing</title>
+	<link href="scheduleAppointment.css" src="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="container">
+	<div  class="col">
+		<div class="mainHeader"><label>Schedule an appointment</label><hr></div><br>
+		<div class="col1"><label>Date</label></div>
+		<div class="col1"><label>Time(24 Hours)</label></div>
+		<div class="col1"><label>Time Zone</label></div><br>
+		<input type="text" name="date" class="col1" placeholder="dd-mm-yyyy">
+		<input type="text" name="time" class="col1" placeholder="HH:MM">
+		<select class="col1">
+		  <option value="select">Select</option>
+		  <option value="au-perth">Perth</option>
+		  <option value="au-sydney">Sydney</option>
+		  <option value="au-brisbane">Brisbane</option>
+		  <option value="au-tasmania">Tasmania</option>
+		</select>
+		<br><br>
+		<label class="col1">Contact</label>
+	 	<input type="text" name="contact" class="full"><br>
+	 	<label class="col1">Email</label>
+		<input type="text" name="email" class="full"><br>
+		<label class="col1">Remark</label>
+		<textarea rows="10" class="full"></textarea> <br>
+	</div>
+	<button type="submit">Schedule</button>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.main{
+	margin: 5% auto 5%;
+	width: 550px;
+	height: 500px;
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 15px
+}
+
+html {
+	background-color: #76b852;
+	overflow: hidden;
+	font-family: cursive;
+}
+
+label {
+	text-align: center;
+}
+
+.radio  {
+	display: inline-block;
+	vertical-align: middle;
+}
+input[type=radio]:hover {
+	cursor: pointer;
+}
+
+input[type=text]:active {
+	font-family: cursive;
+}
+
+input[type=text] {
+	width: 160px;
+	height: 30px;
+	margin-bottom: 20px;
+	border: 0;
+	border-bottom: 2px solid #76b852
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  background-color: #76b852;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(118, 184, 82,.94);
+  text-transform: uppercase;
+  color: white;
+}
+
+button:hover {
+  background-color: yellow;
+  cursor: pointer;
+  color: black;
+}
+
+.main div {
+	padding-bottom: 10px;
+}

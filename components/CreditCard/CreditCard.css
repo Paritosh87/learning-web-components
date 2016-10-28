@@ -1,0 +1,107 @@
+
+.container {
+	top: 9%;
+	position: relative;
+	left: 33%;
+	width: 450px;
+ 	text-align: center;
+}
+
+.mainHeader {
+	color: white;
+	font-size: 20px;
+	padding: 2px;
+}
+
+
+body {
+   background-color: gray;
+   overflow: hidden;
+}
+
+.col {
+	float: left;
+	width: 100%;
+	background: #FFFFFF;
+	height: 210px;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.24);
+	border-radius: 10px;
+}
+
+.background-white {
+	background: #FFFFFF;
+}
+
+.full {
+	width: 98%;
+	display: block;
+	box-sizing: border-box;
+}
+
+hr {
+	border: 1px inset purple;
+}
+
+
+.margin-bottom-25 {
+	margin-bottom: 25px
+}
+
+.col1 {
+	
+	float: left;
+	text-align: left;
+}
+
+.width-18per {
+	width: 18%;
+}
+
+.width-32per {
+	width: 32%;
+}
+
+.width-45per {
+	width: 45%;
+}
+
+.dropdown {
+	width: 15%;
+
+}
+
+.margin-left-5 {
+	margin-left: 5px;
+}
+
+.margin-left-10 {
+	margin-left: 10px;
+}
+
+input {
+	margin-right: 5px;
+	padding: 3px;
+}
+
+button {
+	width: 180px;
+	height: 30px;
+	color: white;
+	background-color: purple;
+}
+
+label {
+	color: purple;
+}
+
+button:hover {
+	color: white;
+	background-color: orange;
+}
+
+input, textarea, select {
+	border: 1px solid purple;
+}

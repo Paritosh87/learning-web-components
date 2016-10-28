@@ -1,0 +1,42 @@
+html, body {
+	height: 900px;
+	margin: 0;
+	background-color: #111638;
+	line-height: 1.5em;
+	font-family:  cursive;
+}
+
+div {
+	border: 1px solid gray;
+	max-width: 400px;
+	height: 900px;
+	background-color: mintcream;
+	margin: 30px;
+	position: relative;
+	border-radius: 10px;
+}
+
+img {
+	border-radius: 50%;
+	width: 200px; 
+	height: 200px;
+	position: absolute;
+	left: 80px;
+	top: 55px;
+}
+
+header {
+	
+	font-size: 2.5em;
+	font-weight: bolder;
+	left: 70px;
+	top: 18px;
+	position: absolute;
+}
+
+section {
+	max-width: 300px;
+	position: absolute;
+	top: 250px;
+	left: 50px;
+}

@@ -1,0 +1,94 @@
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
+* {
+	/*box-sizing: border-box;*/
+	font-size: 15px;
+}
+
+nav {
+	height: 40px;
+	background-color: crimson;
+	text-transform: uppercase;
+	position: relative;
+
+}
+
+.firstcell {
+	color: #fff;
+	width: 50%;
+	position: absolute;
+	left: 10px;
+	bottom:5px;
+}
+
+.firstcell a {
+list-style-type: none;
+color: #fff;
+text-decoration: none;
+}
+
+.secondcell {
+	color: #fff;
+	width: 50%;
+	position: absolute;
+	right: 10px;
+	bottom:5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #fff;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    /*display: block;*/
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+a:hover{
+	color: cornflowerblue;
+}
+
+section {
+	height: 800px;
+	background-image: url("image/inspiration.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1 {
+	color: white;
+	top: 200px;
+	position: absolute;
+	left: 300px;
+	font-size: 4em;
+	font-weight: bolder;
+}
+
+blockquote {
+	color: white;
+	top: 350px;
+	position: absolute;
+	left: 300px;
+	font-size: 1.5em;
+	font-weight: bolder;
+	display: block;
+	width: 600px;
+}
+
+b {
+	font-size: 1.8em;
+}

@@ -1,0 +1,36 @@
+.button {
+	
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  background-color: purple;
+  box-shadow: 9px 10px 15px purple;
+  border: 2px solid black;
+  font-size: 13px;
+  margin-left: 10px;
+  font-family: Cursive;
+}
+.button:hover{
+	cursor: pointer;
+	background-color:  blue;
+	box-shadow: 9px 10px 15px blue;
+	transform: rotate(7deg);
+}
+
+.button:nth-child(4n){
+	transform: rotate(-7deg);
+}
+
+
+.button-sm{
+	font-size: 0.7em;
+}
+
+.button-md{
+	//font-size: 0.7em;
+}
+
+.button-lg{
+	font-size: 1.25em;
+}

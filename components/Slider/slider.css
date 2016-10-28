@@ -1,0 +1,24 @@
+body {
+	background-color: #76b852;
+	font-family: cursive;
+}
+.main {
+	margin: 0px auto 0px;
+	background-color: white;
+	padding: 30px 65px 65px 65px;
+	text-align: center;
+	max-width: 200px;
+	max-height: 350px;
+	border-radius: 10px;
+	position: relative;
+	top: 20%;
+}
+
+label, div {
+	padding: 10px;
+}
+
+header {
+	font-size: larger;
+	padding-bottom: 10px;
+}

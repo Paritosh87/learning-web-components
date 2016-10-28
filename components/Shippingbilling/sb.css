@@ -1,0 +1,78 @@
+
+.container {
+	top: 9%;
+	position: relative;
+	left: 13%;
+	width: 1000px;
+ 	text-align: center;
+}
+
+.mainHeader {
+	color: white;
+	border: 1px solid white;
+	font-size: 30px;
+	padding: 2px;
+}
+
+.header {
+	color: orange;
+	text-align: center;
+	font-weight: bolder;
+}
+
+body {
+   background-color: black;
+   font-family: cursive;
+   overflow: hidden;
+}
+
+.col {
+	float: left;
+	width: 48%;
+	background: #FFFFFF;
+	height: 420px;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.background-white {
+	background: #FFFFFF;
+}
+
+.full {
+	width: 93%;
+	display: block;
+	box-sizing: border-box;
+}
+hr {
+	border: 1px inset orange;
+}
+
+
+.margin-bottom-25 {
+	margin-bottom: 25px
+}
+
+.col1 {
+	width: 46%;
+	float: left;
+	text-align: left;
+}
+
+.checkbox {
+	width: 90%;
+	float: left;
+	text-align: left;
+	margin: 10px;
+}
+
+input {
+	margin-right: 5px;
+}
+
+button {
+	width: 150px;
+	color: white;
+	background-color: orange;
+}
