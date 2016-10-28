@@ -9,7 +9,7 @@ html, body {
 }
 
 nav {
-	height: 40px;
+	height: 55px;
 	background-color: crimson;
 	text-transform: uppercase;
 	position: relative;
@@ -18,7 +18,7 @@ nav {
 
 .firstcell {
 	color: #fff;
-	width: 50%;
+	width: 20%;
 	position: absolute;
 	left: 10px;
 	bottom:5px;
@@ -32,7 +32,7 @@ text-decoration: none;
 
 .secondcell {
 	color: #fff;
-	width: 50%;
+	width: 80%;
 	position: absolute;
 	right: 10px;
 	bottom:5px;
@@ -49,6 +49,7 @@ ul {
 
 li {
     float: left;
+    padding: 3px;
 }
 
 li a {
