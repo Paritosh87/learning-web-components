@@ -1,28 +1,33 @@
 <html>
 <head>
 <link rel="stylesheet" src="text/css" href="signup.css"/>
+
 </head>
 <body>
-<div class="form">
+<form id="signup">
+<div class="form" >
 <label class="header"> Sign Up</label>
 <div>
 <label> Full Name</label>
-<input type="text"  class="width-50" placeholder="first name"/>
-<input type="text" class="width-50 margin-10" placeholder="last name"/>
+<input type="text"  class="width-50" placeholder="first name" id="first-name"/>
+<input type="text" class="width-50 margin-10" placeholder="last name" id="last-name"/>
 </div>
 <div>
 <label> Date of Birth</label>
-<input type="text" placeholder="mm-dd-yyyy"/>
+<input type="text" placeholder="mm-dd-yyyy" id="dob"/>
 </div>
 <div>
 <label>Email</label>
-<input type="text" placeholder="email"/>
+<input type="text" placeholder="email" id="email"/>
 </div>
 <div>
 <label>Password</label>
-<input type="text" placeholder="password"/>
+<input type="text" placeholder="password" id="password"/>
 </div>
-<button type="submit">Submit</button>
+<button type="submit" value="Submit">Submit</button>
 </div>
+</form>
+<script type="text/javascript" src='../validator.js'></script>
+<script type="text/javascript" src='signup.js'></script>
 </body>
 </html>
