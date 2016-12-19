@@ -2,33 +2,36 @@
 <head>
 	<title>Calculator</title>
 	<link href="Calculator.css" src="text/css" rel="stylesheet"/>
+	<script type="text/javascript" src='Calculator.js'></script>
 </head>
 <body>
 	<div class="container">
 	<div  class="col">
 		<div class="inner">
-				<div class="col1">C</div>
-				<div class="col1-text"><input type="text"/></div>
+				<div class="col1-10" onclick="calc.btnClick('C')">C</div>
+				<div class="col1-10" onclick="calc.btnClick('D')">Del</div>
+				
+				<div class="col1-text"><input type="text" id="txtCalc"/></div>
 
-				<div class="col1">7</div>
-				<div class="col1">8</div>
-				<div class="col1">9</div>
-				<div class="col1">+</div>
+				<div class="col1" value="7" onclick="calc.btnClick('7')">7</div>
+				<div class="col1" value="8" onclick="calc.btnClick('8')">8</div>
+				<div class="col1" value="9" onclick="calc.btnClick('9')">9</div>
+				<div class="col1" value="+" onclick="calc.btnClick('+')">+</div>
 
-				<div class="col1">4</div>
-				<div class="col1">5</div>
-				<div class="col1">6</div>
-				<div class="col1">-</div>
+				<div class="col1" value="4" onclick="calc.btnClick('4')">4</div>
+				<div class="col1" value="5" onclick="calc.btnClick('5')">5</div>
+				<div class="col1" value="6" onclick="calc.btnClick('6')">6</div>
+				<div class="col1" value="-" onclick="calc.btnClick('-')">-</div>
 
-				<div class="col1">1</div>
-				<div class="col1">2</div>
-				<div class="col1">3</div>
-				<div class="col1">/</div>
+				<div class="col1" value="1" onclick="calc.btnClick('1')">1</div>
+				<div class="col1" value="2" onclick="calc.btnClick('2')">2</div>
+				<div class="col1" value="3" onclick="calc.btnClick('3')">3</div>
+				<div class="col1" value="/" onclick="calc.btnClick('/')">/</div>
 
-				<div class="col1">0</div>
-				<div class="col1">.</div>
-				<div class="col1">=</div>
-				<div class="col1">*</div>
+				<div class="col1" value="0" onclick="calc.btnClick('0')">0</div>
+				<div class="col1" value="." onclick="calc.btnClick('.')">.</div>
+				<div class="col1" value="=" onclick="calc.btnClick('=')">=</div>
+				<div class="col1" value="*" onclick="calc.btnClick('*')">*</div>
 
 		</div>
 	</div>

@@ -101,3 +101,21 @@ div[class="col1"]:hover {
 	background: #F0FFFF;
 	color: orange;
 }
+
+div[class="col1-10"]:hover {
+	background: #F0FFFF;
+	color: orange;
+}
+
+.col1-10 {
+	width: 10%;
+	float: left;
+	text-align: left;
+	background: #FFFFFF;
+	margin:3px;
+	text-align: center;
+	border-radius: 3px;
+	height: 25px;
+	padding-bottom: 5px;
+	box-shadow: 5px 5px 5px #78A7BC;
+}

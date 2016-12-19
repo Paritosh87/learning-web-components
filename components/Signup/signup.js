@@ -14,7 +14,12 @@ var password = document.getElementById("password").value;
         	|| (validator.isEmpty(email) || !validator.isEmailAddress(email))
         	|| (validator.isEmpty(password) || (password.length<6 || password.length>8))) {
              signupForm.className = "invalid";
-         console.log(signup.className);
+         	 // console.log(signup.className);
         }
+        else {
+             signupForm.className = "valid";
+         	 
+        }
+        console.log(signup.className);
 
 }, false);
