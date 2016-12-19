@@ -1,0 +1,142 @@
+html, body {
+	width: 100%;
+	margin: 0;
+	position: relative;
+}
+
+header {
+	min-width: 30%;
+	background-color: #ff6600;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+header #name {
+	display: inline-block;
+	color: white;
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 5px;
+	font-size: large;
+	font-weight: bold;
+}
+
+#restaurantIcon {
+	width: 40px;
+	height: 50px;
+	padding-left: 150px;
+}
+
+#notificationIcon {
+	width: 40px;
+	height: 25px;
+	right: 470px;
+	padding-top: 15px;
+	position: absolute;
+}
+
+header #notificationText {
+	display: inline-block;
+	color: white;
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 5px;
+	font-weight: bold;
+	right: 285px;
+}
+
+#loginIcon {
+	width: 40px;
+	height: 25px;
+	right: 215px;
+	padding-top: 15px;
+	position: absolute;
+}
+
+
+header #loginText {
+	display: inline-block;
+	color: white;
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 5px;
+	font-weight: bold;
+	right: 180px;
+}
+
+menu {
+	display: block;
+	/*width: 97%;*/
+	height: 8%;
+	/*border-bottom: 2px solid orange;*/
+	position: absolute;
+	margin: 0 auto;
+	padding-left: 350px;
+	text-align: center;
+}
+
+menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+menu ul li {
+	float: left;
+	padding-left: 30px;
+	border-bottom: 2px solid orange;
+	padding-right: 30px;
+}
+
+content {
+margin-top: 70px;
+/*border: 1px solid red;*/
+height: 470px;
+display: inline-block;
+padding: 10px 30px 10px 80px;
+}
+
+#main div {
+	display: inline-block;
+	width : 25%;
+	border: 1px solid black;
+	height: 300px
+}
+
+
+#main img {
+	display: inline-block;
+	width : 100%;
+	border: 1px solid black;
+	height: 300px
+}
+
+/*.zoom:hover:after {
+	    font-size: 1.5em;
+    opacity: .5;
+}
+
+.zoom:after {
+	z-index: 100;
+background-color: rgba(0,0,0,0.95);
+    content: 'Add to Cart';
+    transition: opacity .5s linear;
+}*/
+
+
+
+menu ul li a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    width: 70px;
+}
+
+menu ul li a:hover {
+    background-color: #ff6600;
+    color: white;
+}
