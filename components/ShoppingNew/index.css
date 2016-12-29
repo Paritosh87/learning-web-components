@@ -54,6 +54,33 @@ header #notificationText {
 	position: absolute;
 }
 
+#cartIcon {
+	width: 40px;
+	height: 25px;
+	right: 140px;
+	padding-top: 15px;
+	position: absolute;
+}
+
+#notification {
+	width: 18px;
+	height: 18px;
+	right: 135px;
+	margin-top: 15px;
+	position: absolute;
+	border-radius: 50%;
+	display: inline;
+	color: orange;
+	background: white;
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+#text {
+	 padding: 1px;
+	 margin: 0;
+}
 
 header #loginText {
 	display: inline-block;
@@ -112,18 +139,31 @@ padding: 10px 30px 10px 80px;
 	height: 300px
 }
 
-/*.zoom:hover:after {
-	    font-size: 1.5em;
-    opacity: .5;
+.zoom {
+	position: relative;
+}
+.zoom:after {
+    position: absolute;
+    background-color: rgba(0,0,0,0.95);
+    content: 'Add to Cart';
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    opacity: 0;
+    transition: opacity .5s linear;
+    box-sizing: border-box
 }
 
-.zoom:after {
-	z-index: 100;
-background-color: rgba(0,0,0,0.95);
-    content: 'Add to Cart';
-    transition: opacity .5s linear;
-}*/
-
+.zoom:hover:after {
+    opacity: 0.8;
+    font-size: 1em;
+}
 
 
 menu ul li a {
